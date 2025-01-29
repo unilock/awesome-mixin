@@ -24,12 +24,12 @@ Collection of various libraries that help [SpongePowered Mixin](https://github.c
 - [`@Cancellable`](https://github.com/LlamaLad7/MixinExtras/wiki/Cancellable) - Allows receiving a cancellable `CallbackInfo` or `CallbackInfoReturnable` as appropriate from any kind of injector, instead of only `@Inject`
 - [`@Local`](https://github.com/LlamaLad7/MixinExtras/wiki/Local) - Allows capturing local variables wherever you need them
 - [`@Share`](https://github.com/LlamaLad7/MixinExtras/wiki/Share) - Allows sharing values between handler methods in the same target method
-- [`@Expression`](https://github.com/LlamaLad7/MixinExtras/wiki/Expressions) (beta) - Allows using java-like strings to target complex pieces of bytecode
+- [`@Expression`](https://github.com/LlamaLad7/MixinExtras/wiki/Expressions) (beta) - Allows using Java-like strings to target complex pieces of bytecode
 
 ## [MixinSquared](https://github.com/Bawnorton/MixinSquared)
 
 ### Sugar
-- [`@TargetHandler`](https://github.com/Bawnorton/MixinSquared/wiki) - Allows any injector to target another handler that was added to the class after being processed by Mixin
+- [`@TargetHandler`](https://github.com/Bawnorton/MixinSquared/wiki) - Allows any injector to target the handler of another (previously applied) injector
 
 ### Misc
 - [`MixinAnnotationAdjuster`](https://github.com/Bawnorton/MixinSquared/wiki/Mixin-Annotation-Adjuster) - Allows manipulation of the annotations used in mixins that would normally be out of a user's control
