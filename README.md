@@ -1,6 +1,21 @@
 # Awesome Mixin!!
 
-Collection of various libraries that help [SpongePowered Mixin](https://github.com/SpongePowered/Mixin) do more.
+Collection of libraries that add various features to [SpongePowered Mixin](https://github.com/SpongePowered/Mixin).
+
+## [Divine Intervention](https://github.com/devs-immortal/Divine-Intervention)
+
+### Injectors
+- [`@ModifyOperand`](https://github.com/devs-immortal/Divine-Intervention/blob/master/README.md#modifyoperand) - Takes the topmost value on the operand stack and passes it to a handler method, optionally also capturing the target method arguments, and replaces it with the handler method's return value
+- [`@EnumInject`](https://github.com/devs-immortal/Divine-Intervention/blob/master/README.md#enuminject) - Slightly weird injector that adds a constant to an enum (see [EnumInject.md](https://github.com/devs-immortal/Divine-Intervention/blob/master/EnumInject.md) for an example)
+- [`@CustomInject`](https://github.com/devs-immortal/Divine-Intervention/blob/master/README.md#custominject) - Allows using ASM to do whatever you want to do - "if you don't know how to use it, you probably shouldn't"
+
+## [mixin-tools](https://github.com/ArclightPowered/mixin-tools)
+
+(Unfortunately this library does not have any documentation.)
+
+### Injectors
+- `@Eject` - ???
+- `@Decorate` - ???
 
 ## [MixinConstraints](https://github.com/Moulberry/MixinConstraints)
 
@@ -32,8 +47,8 @@ Collection of various libraries that help [SpongePowered Mixin](https://github.c
 - [`@TargetHandler`](https://github.com/Bawnorton/MixinSquared/wiki) - Allows any injector to target the handler of another (previously applied) injector
 
 ### Misc
-- [`MixinAnnotationAdjuster`](https://github.com/Bawnorton/MixinSquared/wiki/Mixin-Annotation-Adjuster) - Allows manipulation of the annotations used in mixins that would normally be out of a user's control
-- [`MixinCanceller`](https://github.com/Bawnorton/MixinSquared/wiki/Mixin-Canceller) - Allows canceling the application of Mixins that would normally be out of a user's control
+- [`MixinAnnotationAdjuster`](https://github.com/Bawnorton/MixinSquared/wiki/Mixin-Annotation-Adjuster) - Allows manipulation of the annotations used in arbitrary mixins
+- [`MixinCanceller`](https://github.com/Bawnorton/MixinSquared/wiki/Mixin-Canceller) - Allows canceling the application of arbitrary mixins
 
 ## [Lib39 (Core)](https://git.sleeping.town/unascribed-mods/Lib39)
 
